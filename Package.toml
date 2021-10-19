@@ -7,7 +7,7 @@
     # version
     version =              "0.0.1"
     # image URL
-    image =                ""
+    image =                "https://i.imgur.com/B9IKTvL.png"
     # package type: 'script' (normal package), 'game-mode' (unique package - can only load one at a time) or 'loading-screen' (special package loaded in loading screen)
     type =                 "script"
     # whether to force the custom map Script to do not load
