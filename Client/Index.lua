@@ -1,0 +1,7 @@
+Events.Subscribe("GivePlayerWood", function(Wood)
+    local Viewport = Render.GetViewportSize()
+    local DebugText = Render.AddText(0, "+ Wood: " .. Wood, Vector2D(Viewport.X * 0.75, Viewport.Y * 0.25), 0, 20, Color(0, 1, 0, 1), 0, true, true, false, Vector2D(1, 1), Color(0, 1, 0, 0), false, Color(0, 1, 0, 0))
+    Timer.SetTimeout(function()
+        Render.ClearItems(0)
+    end, 500)
+end)
